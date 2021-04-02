@@ -23,3 +23,10 @@ function userArray(number){
  
 // User Interface Logic
 
+$(document).ready(function(){
+  $("form#form").submit(function(event) {
+    event.preventDefault();
+    const homeAdress = $("input#luckyNumber").val();
+    $("#result").show();
+  });
+});
