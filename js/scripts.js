@@ -1,5 +1,7 @@
-
 ('use strict')
+
+
+// Business Logic
 
 function userArray(number){
   let userArray = [];
@@ -19,3 +21,5 @@ function userArray(number){
     return userArray;
   }
  
+// User Interface Logic
+
